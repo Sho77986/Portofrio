@@ -31,7 +31,8 @@
   font-size: large;
   margin: 20px 0px;
   padding: 20px 10px;
-  background-color: rgba(226, 179, 118, 0.7);
+  border: double 15px rgba(255, 217, 0, 0.397);
+  background-color: rgba(255, 217, 0, 0.192);
   border-radius: 100%;
 }
 .self{
@@ -49,18 +50,20 @@
 
 .title1-text{
   border-radius: 100%;
-  width: 90px;
+  width: 120px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   padding: 20px 0px 20px 10px;
   height: 30px;
   margin: 20px;
-  background-color: rgba(222, 135, 168, 0.2);
+  background: -moz-linear-gradient(top left, #FFF, #ffeb79); 
+  background: -webkit-linear-gradient(top left, #FFF, #ebff78); 
+  background: linear-gradient(to bottom right, #FFF, #FFC778);  
   overflow: hidden;
   overflow-x: scroll;
 }
 .title1-name{
-  width: calc(50vw - 90px);
+  width: calc(50vw - 120px);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   padding: 10px 2px 10px 0px;
@@ -151,14 +154,85 @@
   font-size: 30px;
   margin: 20px 0px;
 }
-.title3-content{
+.title3-content_1{
   border: solid 1px red;
-  border-radius: 100%;
+  border-radius: 5%;
   padding: 50px;
   width: 30vw;
   height: 200px;
   margin: 20px 0px;
+  background-image: url('/assets/furima.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 1.3;
 }
+
+.aaa{
+  border: solid 1px red;
+  height: 30px;
+  width: 20vw;
+  margin-bottom: 80px;
+  border-radius: 20%;
+  text-decoration: none;
+  word-wrap: break-all;
+}
+
+.bbb{
+  font-size: medium;
+  text-decoration: none;
+  text-align: center;
+  word-wrap: break-all;
+}
+
+
+
+.title3-content_2{
+  border: solid 1px red;
+  border-radius: 5%;
+  padding: 50px;
+  width: 30vw;
+  height: 200px;
+  margin: 20px 0px;
+  background-image: url('/assets/paiza.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 1.3;
+}
+.title3-content_3{
+  border: solid 1px red;
+  border-radius: 5%;
+  padding: 50px;
+  width: 30vw;
+  height: 200px;
+  margin: 20px 0px;
+  background-image: url('/assets/Manymenu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.title3-content_4{
+  border: solid 1px red;
+  border-radius: 5%;
+  padding: 50px;
+  width: 30vw;
+  height: 200px;
+  margin: 20px 0px;
+  background-image: url('/assets/About_Manymenu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.title3-content_12{
+  border: solid 1px red;
+  word-wrap: break-all;
+  border-radius: 8%;
+  padding: 20px 50px;
+  width: 30vw;
+  margin: 20px 0px;
+}
+
 
 
 
