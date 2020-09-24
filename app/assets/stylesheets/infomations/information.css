@@ -169,10 +169,24 @@
 }
 
 .aaa{
-  background-color: greenyellow;
+  border: solid 1px red;
   height: 30px;
-  width: 100px;
+  width: 20vw;
+  margin-bottom: 80px;
+  border-radius: 20%;
+  text-decoration: none;
+  word-wrap: break-all;
 }
+
+.bbb{
+  font-size: medium;
+  text-decoration: none;
+  text-align: center;
+  word-wrap: break-all;
+}
+
+
+
 .title3-content_2{
   border: solid 1px red;
   border-radius: 5%;
@@ -210,11 +224,16 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
-.title3-content_21{
-  font-size: xx-large;
-  display: flex;
-  justify-content: center;
+.title3-content_12{
+  border: solid 1px red;
+  word-wrap: break-all;
+  border-radius: 8%;
+  padding: 20px 50px;
+  width: 30vw;
+  margin: 20px 0px;
 }
+
+
 
 
 .title4{
