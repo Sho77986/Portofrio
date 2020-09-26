@@ -233,6 +233,196 @@
   margin: 20px 0px;
 }
 
+.photos{
+  border: solid 1px red;
+  border-radius: 5%;
+  padding: 50px;
+  width: 30vw;
+  height: 200px;
+  margin: 20px 0px;
+  overflow: hidden;
+  overflow: scroll;
+}
+
+.photo1{
+  width: 35vw;
+  height: 200px;
+  background-color: hotpink;
+  background-image: url('/assets/About_Manymenu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo2-1{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-2{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-3{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-4{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-5{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo2-6{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-7{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-8{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-9{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-10{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-10.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-11{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-11.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo2-12{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-13{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-13.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-14{
+  width: 35vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-14.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-15{
+  width: 37vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-15.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-16{
+  width: 37vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-16.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo2-17{
+  width: 37vw;
+  height: 24vw;
+  background-color: hotpink;
+  background-image: url('/assets/photo2-17.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+  .photo2-18{
+    width: 35vw;
+    height: 24vw;
+    background-color: hotpink;
+    background-image: url('/assets/photo2-18.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+
+
+
 
 
 
