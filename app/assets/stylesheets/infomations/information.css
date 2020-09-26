@@ -236,8 +236,8 @@
 .photos{
   border: solid 1px red;
   border-radius: 5%;
-  padding: 50px;
-  width: 30vw;
+  padding: 30px;
+  width: 35vw;
   height: 200px;
   margin: 20px 0px;
   overflow: hidden;
@@ -253,11 +253,181 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
+.photos_coment{
+  font-size: large;
+  margin: 30px 0px 10px;
+}
+.photos_card{
+  border: solid 2px black;
+}
+
+.photo1-1{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-2{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-3{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-4{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-5{
+  width: 33vw;
+  height: 10vw;
+  background-image: url('/assets/photo1-5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-6{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-7{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-8{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-9{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-10{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-10.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-11{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-11.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-12{
+  width: 33vw;
+  height: 22vw;
+  background-image: url('/assets/photo1-12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-13{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-13.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-14{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-14.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-15{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-15.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-16{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-16.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-17{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-17.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.photo1-18{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-18.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-19{
+  width: 33vw;
+  height: 20vw;
+  background-image: url('/assets/photo1-19.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
 
 .photo2-1{
   width: 35vw;
   height: 24vw;
-  background-color: hotpink;
   background-image: url('/assets/photo2-1.png');
   background-size: cover;
   background-repeat: no-repeat;
