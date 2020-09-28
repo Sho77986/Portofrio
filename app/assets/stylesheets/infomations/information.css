@@ -4,22 +4,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(187, 187, 187, 0.3);
-  opacity: 0.85;
+  opacity: 0.9;
   width: 100vw;
-  height: 600px;
+  height: 550px;
 }
 .portofrio{
  font-style: italic;
  font-family: initial;
  letter-spacing: 2vw;
- color: rgb(0, 0, 0);
- text-shadow: 10px 10px 4px rgb(216,100, 100);
- 
- font-size: 50px;
- margin: 0px 20vw;
- padding-top: 100px;
+ color: rgba(32, 7, 44, 0.897);
+ text-shadow: 10px 10px 4px rgba(216, 100, 100, 0.637);
+ font-size: 80px;
+ margin: 0px 5vw;
+ padding-top: 80px;
  display: flex;
- justify-content: space-around;
+
 }
 
 /**/
@@ -29,15 +28,18 @@
 }
 .index{
   display: flex;
-  justify-content: space-around;
+  float: right;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+.title0{
 }
 .title0-text{
   font-size: large;
-  margin: 10px 0px;
-  padding: 20px 20px;
+  margin: 20px 100px;
+  padding: 10px 20px;
   border-bottom: double 3px rgb(218, 96, 96);
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 100%;
+  border-radius: 0%;
 }
 .self-0{
   display: flex;
@@ -72,17 +74,22 @@
 .title1{
   width: 100vw;
   display: flex;
+  margin-top: 7px;
+}
+.title3-textssss{
+  font-size: 25px;
+  margin: 20px 50px
 }
 
 .title1-text{
   border-radius: 100%;
   font-weight: bold;
-  width: 120px;
+  width: 100px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
-  padding: 20px 0px 20px 10px;
+  padding: 5px 0px 5px 10px;
   height: 30px;
-  margin: 20px;
+  margin: 10px;
   background: -moz-linear-gradient(top left, #FFF, #ffeb79); 
   background: -webkit-linear-gradient(top left, #FFF, #ebff78); 
   background: linear-gradient(to bottom right, #FFF, #FFC778);  
@@ -90,20 +97,20 @@
   overflow-x: scroll;
 }
 .title1-name{
-  width: calc(50vw - 120px);
+  width: 150px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 2px 10px 0px;
+  padding: 7px 5px 7px 0px;
   height: 30px;
-  margin: 20px;
-  background-color: rgba(245, 245, 245, 0.623);
-  border-bottom: solid 1px rgb(43, 36, 36);
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.823);
+  border-bottom: solid 3px rgb(43, 36, 36);
   overflow: hidden;
   overflow-y: scroll;
 }
 .title1-names{
-  width: calc(80vw - 90px);
+  width: 400px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   font-weight: bold;
@@ -111,7 +118,7 @@
   padding: 10px 2px 10px 0px;
   height: 30px;
   margin: 20px;
-  border-bottom: solid 1px rgb(43, 36, 36);
+  border-bottom: solid 3px rgb(43, 36, 36);
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -120,10 +127,9 @@
   justify-content: space-around;
 }
 .title1-texts{
-  background-color: rgba(245, 245, 245, 0.616);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 25px;
-  padding: 50px;
+  font-size: 35px;
+  padding: 30px;
   margin-top: 50px;
 }
 .title11-text{
@@ -148,6 +154,8 @@
   background-repeat: no-repeat;
   background-position: top center;
   opacity: 0.9;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 
@@ -157,6 +165,9 @@
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.9;
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 
@@ -177,7 +188,7 @@
 .title2-name{
   border: double 5px rgba(84, 144, 255, 0.7);
   background-color: white;
-  width: 60vw;
+  width: 70vw;
 }
 .title22{
   font-size: 20px;
@@ -195,17 +206,34 @@
   justify-content: space-around;
   margin: 10px;
 }
+
+.selfs-text{
+  border-bottom: double 5px rgba(207, 92, 97, 0.479);
+  width: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  height: 30px;
+  margin: 20px 10px 30px;
+}
+.selfs-name{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  border-bottom: double 5px rgba(207, 92, 97, 0.479);
+  margin: 30px 0px 50px;
+  width: 60vw;
+}
 .title3-text{
   font-family: cursive;
   font-size: 30px;
   margin: 20px 0px;
 }
 .title3-content_1{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.93);
   border-radius: 5%;
   padding: 50px;
-  width: 30vw;
-  height: 200px;
+  width: 25vw;
+  height: 180px;
   margin: 20px 0px;
   background-image: url('/assets/furima.png');
   background-size: cover;
@@ -215,7 +243,7 @@
 }
 
 .aaa{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.93);
   height: 30px;
   width: 20vw;
   margin-bottom: 80px;
@@ -234,15 +262,25 @@
 .title3-texts{
   font-size: 20px;
 }
-
+.photos-information{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin: 30px 0px 0px;
+}
+.item-group{
+  justify-content: center;
+  padding: 10px 0px 20px;
+  margin: 30px 45px 0px;
+  border: double 3px rgb(218, 96, 96);
+}
 
 
 .title3-content_2{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.93);
   border-radius: 5%;
   padding: 50px;
-  width: 30vw;
-  height: 200px;
+  width: 25vw;
+  height: 180px;
   margin: 20px 0px;
   background-image: url('/assets/paiza.png');
   background-size: cover;
@@ -251,11 +289,11 @@
   opacity: 1.3;
 }
 .title3-content_3{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.93);
   border-radius: 5%;
   padding: 50px;
-  width: 30vw;
-  height: 200px;
+  width: 25vw;
+  height: 180px;
   margin: 20px 0px;
   background-image: url('/assets/Manymenu.png');
   background-size: cover;
@@ -263,11 +301,11 @@
   background-position: top center;
 }
 .title3-content_4{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.93);
   border-radius: 5%;
   padding: 50px;
-  width: 30vw;
-  height: 200px;
+  width: 25vw;
+  height: 180px;
   margin: 20px 0px;
   background-image: url('/assets/About_Manymenu.png');
   background-size: cover;
@@ -275,28 +313,31 @@
   background-position: top center;
 }
 .title3-content_12{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.9);
   word-wrap: break-all;
   border-radius: 8%;
-  padding: 20px 50px;
+  padding: 10px 10px;
   width: 30vw;
   margin: 20px 0px;
+  background-color: rgba(255, 255, 255, 0.823);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
 }
 
 .photos{
-  border: solid 1px red;
+  border: dotted 5px rgba(224, 152, 69, 0.993);
   border-radius: 5%;
-  padding: 30px;
-  width: 35vw;
-  height: 200px;
-  margin: 20px 0px;
+  padding: 20px;
+  width: 44vw;
+  height: 300px;
+  margin: 70px 0px 20px;
   overflow: hidden;
   overflow: scroll;
 }
 
 .photo1{
-  width: 35vw;
-  height: 200px;
+  width: 40vw;
+  height: 300px;
   background-color: hotpink;
   background-image: url('/assets/About_Manymenu.png');
   background-size: cover;
@@ -304,40 +345,48 @@
   background-position: top center;
 }
 .photos_coment{
-  font-size: large;
-  margin: 30px 0px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin: 30px 0px 20px;
+  display: flex;
+}
+.photos_comentsss{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  margin: 20px 5px;
 }
 .photos_card{
   border: solid 2px black;
+  width: 41vw;
 }
 
 .photo1-1{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-2{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-3{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-3.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-4{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-4.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -345,8 +394,8 @@
 }
 
 .photo1-5{
-  width: 33vw;
-  height: 10vw;
+  width: 41vw;
+  height: 13vw;
   background-image: url('/assets/photo1-5.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -354,24 +403,24 @@
 }
 
 .photo1-6{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-6.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-7{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-7.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-8{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-8.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -379,8 +428,8 @@
 }
 
 .photo1-9{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-9.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -388,16 +437,16 @@
 }
 
 .photo1-10{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-10.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-11{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-11.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -405,8 +454,8 @@
 }
 
 .photo1-12{
-  width: 33vw;
-  height: 22vw;
+  width: 41vw;
+  height: 28vw;
   background-image: url('/assets/photo1-12.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -414,16 +463,16 @@
 }
 
 .photo1-13{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-13.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-14{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-14.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -431,8 +480,8 @@
 }
 
 .photo1-15{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-15.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -440,16 +489,16 @@
 }
 
 .photo1-16{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 25vw;
   background-image: url('/assets/photo1-16.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-17{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 23vw;
   background-image: url('/assets/photo1-17.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -457,17 +506,25 @@
 }
 
 .photo1-18{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 18vw;
   background-image: url('/assets/photo1-18.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo1-19{
-  width: 33vw;
-  height: 20vw;
+  width: 41vw;
+  height: 18vw;
   background-image: url('/assets/photo1-19.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.photo1-20{
+  width: 41vw;
+  height: 18vw;
+  background-image: url('/assets/photo1-20.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -476,16 +533,16 @@
 
 
 .photo2-1{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-image: url('/assets/photo2-1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .photo2-2{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-2.png');
   background-size: cover;
@@ -493,8 +550,8 @@
   background-position: top center;
 }
 .photo2-3{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-3.png');
   background-size: cover;
@@ -502,8 +559,8 @@
   background-position: top center;
 }
 .photo2-4{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-4.png');
   background-size: cover;
@@ -511,8 +568,8 @@
   background-position: top center;
 }
 .photo2-5{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-5.png');
   background-size: cover;
@@ -521,8 +578,8 @@
 }
 
 .photo2-6{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-6.png');
   background-size: cover;
@@ -530,8 +587,8 @@
   background-position: top center;
 }
 .photo2-7{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-7.png');
   background-size: cover;
@@ -539,8 +596,8 @@
   background-position: top center;
 }
 .photo2-8{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-8.png');
   background-size: cover;
@@ -548,8 +605,8 @@
   background-position: top center;
 }
 .photo2-9{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-9.png');
   background-size: cover;
@@ -557,8 +614,8 @@
   background-position: top center;
 }
 .photo2-10{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-10.png');
   background-size: cover;
@@ -566,8 +623,8 @@
   background-position: top center;
 }
 .photo2-11{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-11.png');
   background-size: cover;
@@ -576,8 +633,8 @@
 }
 
 .photo2-12{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-12.png');
   background-size: cover;
@@ -585,8 +642,8 @@
   background-position: top center;
 }
 .photo2-13{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-13.png');
   background-size: cover;
@@ -594,8 +651,8 @@
   background-position: top center;
 }
 .photo2-14{
-  width: 35vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-14.png');
   background-size: cover;
@@ -603,8 +660,8 @@
   background-position: top center;
 }
 .photo2-15{
-  width: 37vw;
-  height: 24vw;
+  width: 42vw;
+  height: 26vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-15.png');
   background-size: cover;
@@ -612,8 +669,8 @@
   background-position: top center;
 }
 .photo2-16{
-  width: 37vw;
-  height: 24vw;
+  width: 42vw;
+  height: 26vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-16.png');
   background-size: cover;
@@ -621,8 +678,8 @@
   background-position: top center;
 }
 .photo2-17{
-  width: 37vw;
-  height: 24vw;
+  width: 42vw;
+  height: 29vw;
   background-color: hotpink;
   background-image: url('/assets/photo2-17.png');
   background-size: cover;
@@ -631,8 +688,8 @@
 }
 
   .photo2-18{
-    width: 35vw;
-    height: 24vw;
+    width: 42vw;
+    height: 29vw;
     background-color: hotpink;
     background-image: url('/assets/photo2-18.png');
     background-size: cover;
@@ -657,14 +714,16 @@
   border: solid 1px skyblue;
   margin: 5px;
   background-color: white;
-  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
   width: 150px;
 }
 .title4-content{
   border: solid 1px skyblue;
   background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 5px;
-  font-size: 20px;
+  font-size: 18px;
   width: calc(80vw - 150px);
 }
 
